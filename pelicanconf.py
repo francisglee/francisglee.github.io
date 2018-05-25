@@ -45,7 +45,7 @@ RELATIVE_URLS = True
 
 # Services
 # GOOGLE_ANALYTICS = 'UA-12345678-9'
-# DISQUS_SITENAME = 'johndoe'
+DISQUS_SITENAME = 'Francis G. Lee'
 
 # Social
 SOCIAL = (
