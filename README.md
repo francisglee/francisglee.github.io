@@ -8,7 +8,6 @@
 
 1.  [Jupyter](https://github.com/danielfrg/pelican-ipynb)
 2.  [Disqus](https://github.com/getpelican/pelican-plugins/tree/master/disqus_static)
-3.
 
 ### Directory
 
@@ -35,7 +34,6 @@
 ├── contents
 |    ├── images
 |    ├── pages
-|    ├── downloads
 |    ├── pdfs
 |    └── posts
 └── output
