@@ -17,12 +17,12 @@ PATH = 'content'
 TIMEZONE = 'America/New_York'
 MARKUP = ('md', 'ipynb')
 DEFAULT_LANG = 'en'
-PAGE_URL = '{slug}.html'
-PAGE_SAVE_AS = '{slug}.html'
+PAGE_URL = '/{slug}.html'
+PAGE_SAVE_AS = '/{slug}.html'
 DISPLAY_CATEGORIES_ON_MENU = False
 
 # Theme
-THEME = './../portfolio'
+THEME = './themes/mimimalxy'
 # MINIMALXY_CUSTOM_CSS = 'static/custom.css'
 MINIMALXY_FAVICON = './content/images/favicon.ico'
 MINIMALXY_START_YEAR = 2017
