@@ -75,4 +75,20 @@ This is my personal website.
     ```bash
     (venv)$ pelican content -s publishconf.py
     ```
-4. 
+
+### Deploy to Github Pages
+
+1. Push contents to dev branch on website repository.
+
+    ```bash
+    (venv)$ git checkout -b dev # remove `-b` tag if dev branch already exists.
+    (venv)$ git add . 
+    (venv)$ git commit -m "New Post"
+    (venv)$ git push origin dev
+    ```
+2. Use `ghp-import` to extract contents of the output folder to the master branch.
+
+    ```bash
+    (venv)$ ghp-import output -b master
+    (venv)$ git push origin master
+    ```
