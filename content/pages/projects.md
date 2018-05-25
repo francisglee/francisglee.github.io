@@ -1,0 +1,2 @@
+Title: Projects
+Slug: projects

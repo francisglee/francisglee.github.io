@@ -1,0 +1,12 @@
+[submodule "plugins/ipynb"]
+	path = plugins/ipynb
+	url = git://github.com/danielfrg/pelican-ipynb.git
+[submodule "themes/flex"]
+	path = themes/flex
+	url = git://github.com/alexandrevicenzi/Flex.git
+[submodule "themes/minimalxy"]
+	path = themes/minimalxy
+	url = git://github.com/petrnohejl/MinimalXY.git
+[submodule "themes/elegant"]
+	path = themes/elegant
+	url = git://github.com/talha131/pelican-elegant.git
