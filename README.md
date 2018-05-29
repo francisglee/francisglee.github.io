@@ -54,7 +54,23 @@
 
 ### Getting Started
 
-1.  Convert content to HTML.
+1. Clone this repository with associated submodules.
+
+    ```bash
+    $ git clone --recurse-submodules https://www.github.com/francisglee/francisglee.github.io
+    ```
+
+2. Activate virtual environment and install Python packages.
+
+    ```bash
+    $ python3 -m venv venv
+    $ source venv/bin/activate
+    (venv)$ pip3 install -r requirements.txt
+    ```
+
+### Develop Locally
+
+1. Convert content to HTML.
 
     ```bash
     (venv)$ pelican -s pelicanconf.py # generates HTML for entire content
@@ -64,13 +80,13 @@
     (venv)$ pelican --write-selected output/posts/MY-POST-TITLE.md # generates HTML for single article, MY-POST-TITLE
     ```
 
-2.  View generated files locally (http://localhost:8000/).
+2. View generated files locally (http://localhost:8000/).
 
     ```bash
     (venv)$ cd output | python3 -m http.server
     ```
 
-3.  Once you're ready to deploy your site to production, you'll have to regenerate the HTML with any production-specific settings (e.g.- analytic feeds, etc.)
+3. Once you're ready to deploy your site to production, you'll have to regenerate the HTML with any production-specific settings (e.g.- analytic feeds, etc.)
 
     ```bash
     (venv)$ pelican content -s publishconf.py
@@ -78,7 +94,7 @@
 
 ### Deploy to Github Pages
 
-1.  Push contents to dev branch on website repository.
+1. Push contents to dev branch on website repository.
 
     ```bash
     (venv)$ git checkout -b dev # remove `-b` tag if dev branch already exists.
@@ -87,7 +103,7 @@
     (venv)$ git push origin dev
     ```
 
-2.  Use `ghp-import` to extract contents of the output folder to the master branch.
+2. Use `ghp-import` to extract contents of the output folder to the master branch.
 
     ```bash
     (venv)$ ghp-import output -b master
