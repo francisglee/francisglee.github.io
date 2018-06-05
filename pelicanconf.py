@@ -31,7 +31,7 @@ MINIMALXY_CURRENT_YEAR = date.today().year
 
 # Plugins
 PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['ipynb.markup']
+PLUGINS = ['ipynb.markup', 'render_math']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

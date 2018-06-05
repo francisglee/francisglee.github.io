@@ -5,7 +5,7 @@ Category: posts
 Tags: template, markdown
 author: Francis G. Lee
 Summary: This is a markdown template.
-
+ 
 This is intended as a quick reference and showcase. For more complete info, see John Gruber's original spec and the Github-flavored Markdown info page.
 
 This cheatsheet is specifically Markdown Here's version of Github-flavored Markdown. This differs slightly in styling and syntax from what Github uses, so what you see below might vary a little from what you get in a Markdown Here email, but it should be pretty close.

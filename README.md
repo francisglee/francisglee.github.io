@@ -8,7 +8,7 @@
 
 1.  [Jupyter](https://github.com/danielfrg/pelican-ipynb)
 2.  [Disqus](https://github.com/getpelican/pelican-plugins/tree/master/disqus_static)
-3.  [Render Math](https://github.com/getpelican/pelican-plugins/tree/master/render_math). This cannot be updated using `git submodule add` !!! :(
+3.  [Render Math](https://github.com/getpelican/pelican-plugins/tree/master/render_math). This cannot be updated using `git submodule add` !!! :( (I had to copy repo manually)
 
 ### Directory
 
@@ -55,7 +55,7 @@
 5.  get blog to have the index.html layout
 6.  creating submenus
 7.  Fix URL
-8.
+8.  Get widgets on every page
 
 ### Getting Started
 
