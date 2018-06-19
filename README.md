@@ -8,7 +8,7 @@
 
 1.  [Jupyter](https://github.com/danielfrg/pelican-ipynb)
 2.  [Disqus](https://github.com/getpelican/pelican-plugins/tree/master/disqus_static)
-3.  [Render Math](https://github.com/getpelican/pelican-plugins/tree/master/render_math). This cannot be updated using `git submodule add` !!! :( (I had to copy repo manually)
+3.  [Render Math](https://github.com/getpelican/pelican-plugins/tree/master/render_math). This cannot be updated using `git submodule add` !!! :( (I had to copy repo manually) I should add the entire plugin repo as a submodule...
 
 ### Directory
 
@@ -114,3 +114,10 @@
     (venv)$ ghp-import output -b master
     (venv)$ git push origin master
     ```
+
+### Resources
+
+1. http://blog.gabrielrezzonico.com/data-science-portfolio-using-pelican.html
+2. https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/
+3. https://jjakimoto.github.io/articles/2018/Mar/01/start_blog/
+4. 
