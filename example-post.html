@@ -19,45 +19,42 @@
     <meta property="og:title" content="Example Post"/>
     <meta property="og:description" content="This is a markdown template."/>
     <meta property="og:site_name" content="Francis G. Lee" />
-    <meta property="og:url" content="francisglee.github.io/example-post.html"/>
+    <meta property="og:url" content="./example-post.html"/>
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Example Post">
     <meta name="twitter:description" content="This is a markdown template.">
-    <meta name="twitter:url" content="francisglee.github.io/example-post.html">
+    <meta name="twitter:url" content="./example-post.html">
 
     <!-- Feed -->
-    <link rel="alternate" type="application/atom+xml" href="francisglee.github.io/feeds/all.atom.xml" title="Francis G. Lee Atom Feed" />
-    <link rel="alternate" type="application/atom+xml" href="francisglee.github.io/feeds/posts.atom.xml" title="Francis G. Lee Categories Atom Feed" />
     <link rel="alternate" type="application/rss+xml" href="http://Francis G. Lee.disqus.com/latest.rss" title="Francis G. Lee Comments RSS Feed">
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:regular,bold">
-    <link rel="stylesheet" type="text/css" href="francisglee.github.io/theme/css/w3.css">
-    <link rel="stylesheet" type="text/css" href="francisglee.github.io/theme/css/style.css">
-    <link rel="stylesheet" type="text/css" href="francisglee.github.io/theme/css/jqcloud.css">
-    <link rel="stylesheet" type="text/css" href="francisglee.github.io/theme/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="francisglee.github.io/theme/css/pygments-highlight-github.css">
+    <link rel="stylesheet" type="text/css" href="./theme/css/w3.css">
+    <link rel="stylesheet" type="text/css" href="./theme/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./theme/css/jqcloud.css">
+    <link rel="stylesheet" type="text/css" href="./theme/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./theme/css/pygments-highlight-github.css">
 
     <!-- Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="francisglee.github.io/./content/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="././content/images/favicon.ico">
 
     <!-- JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="francisglee.github.io/theme/js/jqcloud.min.js"></script>
+    <script src="./theme/js/jqcloud.min.js"></script>
   </head>
 
   <body>
     <div class="w3-row w3-card w3-white">
       <header id="header">
-        <a href="francisglee.github.io" id="header-logo" title="Home">FG</a>
+        <a href="." id="header-logo" title="Home">FG</a>
         <nav id="header-menu">
           <ul>
-            <li><a href="francisglee.github.io/about.html">About</a></li>
-            <li><a href="francisglee.github.io/blog.html">Blog</a></li>
-            <li><a href="francisglee.github.io/lists.html">Lists</a></li>
-            <li><a href="francisglee.github.io/media.html">Media</a></li>
-            <li><a href="francisglee.github.io/projects.html">Projects</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./lists.html">Lists</a></li>
+            <li><a href="./media.html">Media</a></li>
+            <li><a href="./projects.html">Projects</a></li>
           </ul>
         </nav>
       </header>
@@ -72,14 +69,14 @@
         <h1>Example Post</h1>
         <div class="post-info">
           <div class="w3-opacity w3-margin-right w3-margin-bottom" style="flex-grow: 1;">
-            <span><time datetime="2016-06-08T20:00:00-04:00">Wed 08 June 2016</time> in <a href="francisglee.github.io/category/posts.html" title="All articles in category posts">posts</a></span>
+            <span><time datetime="2016-06-08T20:00:00-04:00">Wed 08 June 2016</time> in <a href="./category/posts.html" title="All articles in category posts">posts</a></span>
           </div>
           <div>
             <span class="w3-tag w3-light-grey w3-text-green w3-hover-green">
-              <a href="francisglee.github.io/tag/template.html" title="All articles with Template tag">#template</a>
+              <a href="./tag/template.html" title="All articles with Template tag">#template</a>
             </span>
             <span class="w3-tag w3-light-grey w3-text-green w3-hover-green">
-              <a href="francisglee.github.io/tag/markdown.html" title="All articles with Markdown tag">#markdown</a>
+              <a href="./tag/markdown.html" title="All articles with Markdown tag">#markdown</a>
             </span>
           </div>
         </div>
@@ -422,10 +419,65 @@ $\forall x \in X, \quad \exists y \leq \epsilon$
 </pre></div>
 
 
-<p>$-b \pm \sqrt{b^2 - 4ac} \over 2a$
-$x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}}$
-$\forall x \in X, \quad \exists y \leq \epsilon$</p>
+<p><span class="math">\(-b \pm \sqrt{b^2 - 4ac} \over 2a\)</span>
+<span class="math">\(x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}}\)</span>
+<span class="math">\(\forall x \in X, \quad \exists y \leq \epsilon\)</span></p>
 <p>The beginning and ending dollar signs ($) are the delimiters for the TeX markup.</p>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
         </section>
 
         <br><br><br>
@@ -434,7 +486,7 @@ $\forall x \in X, \quad \exists y \leq \epsilon$</p>
           <div class="adjust-width">
             <div id="author-block" class="w3-light-grey w3-border">
               <div id="author-info">
-                <a href="http://francisglee.com"><img style="width: 60px; height: 60px;" src="https://scontent.fbed1-2.fna.fbcdn.net/v/t1.0-9/943921_1038927846146417_5401770954356751244_n.jpg?_nc_cat=0&oh=37670c01fdadc020931183c0583aab04&oe=5B93DF33" onerror="this.src='theme/images/avatar.png'" alt="Avatar"></a>
+                <a href="http://francisglee.com"><img style="width: 60px; height: 60px;" src="./content/images/profile1.jpg" onerror="this.src='theme/images/avatar.png'" alt="Avatar"></a>
                 <div style="margin-left: 20px; margin-top: 15px;">
                   <a href="http://francisglee.com"><span id="author-name" class="w3-hover-text-dark-grey">Francis G. Lee</span></a>
                   <p id="author-story">Computational Biologist, Synthetic Biologist, Software Engineer.</p>
@@ -447,13 +499,13 @@ $\forall x \in X, \quad \exists y \leq \epsilon$</p>
 
           <p style="font-size:10pt; font-style: italic;">Did you like this article? Share it with your friends!</p>
           <div id="share" class="share">
-            <a href="http://www.facebook.com/sharer.php?u=francisglee.github.io/example-post.html&amp;t=Francis%20G.%20Lee%3A%20Example%20Post" target="_blank" class="w3-btn w3-indigo">
+            <a href="http://www.facebook.com/sharer.php?u=./example-post.html&amp;t=Francis%20G.%20Lee%3A%20Example%20Post" target="_blank" class="w3-btn w3-indigo">
               <i class="fa fa-facebook"></i> <span>Facebook</span>
             </a>
-            <a href="http://twitter.com/share?url=francisglee.github.io/example-post.html&amp;text=Francis%20G.%20Lee%3A%20Example%20Post" target="_blank" class="w3-btn w3-blue">
+            <a href="http://twitter.com/share?url=./example-post.html&amp;text=Francis%20G.%20Lee%3A%20Example%20Post" target="_blank" class="w3-btn w3-blue">
               <i class="fa fa-twitter"></i> <span>Twitter</span>
             </a>
-            <a href="https://plus.google.com/share?url=francisglee.github.io/example-post.html" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="w3-btn w3-red">
+            <a href="https://plus.google.com/share?url=./example-post.html" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="w3-btn w3-red">
               <i class="fa fa-google-plus"></i> <span>Google</span>
             </a>
           </div>
@@ -469,7 +521,7 @@ $\forall x \in X, \quad \exists y \leq \epsilon$</p>
              */
             
             var disqus_config = function () {
-              this.page.url = 'francisglee.github.io';  // Replace PAGE_URL with your page's canonical URL variable
+              this.page.url = '.';  // Replace PAGE_URL with your page's canonical URL variable
               this.page.identifier = 'example-post'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
             };
             
@@ -495,7 +547,7 @@ $\forall x \in X, \quad \exists y \leq \epsilon$</p>
         <span>
           &copy;
           2017&dash;2018          Francis G. Lee
- | <a href="francisglee.github.io/feeds/all.atom.xml">Atom feed <i class="fa fa-rss" aria-hidden="true"></i></a>        </span>
+        </span>
       </div>
     </footer>
 
