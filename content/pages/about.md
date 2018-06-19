@@ -16,27 +16,27 @@ Read my [Project Page](https://www.francisglee.com/projects.html) or my [CV](#wo
 ## Work Experience
 
 **Senior Software Engineer, Computational Biologist**  
-_Elucidata Inc._  
+[_Elucidata_](http://www.elucidata.io/)  
 2018 - Present
 
 **Co-Founder and Director**  
-_BosLab_  
+[_BosLab_](www.boslab.org)  
 2016 - Present
 
 **Visiting Scientist**  
-_Wyss Institute_  
+[_Wyss Institute_](https://wyss.harvard.edu/)  
 2016 - 2017
 
 **Research Associate**  
-_MIT Synthetic Biology Center_  
+[_MIT Synthetic Biology Center_](http://synbio.mit.edu/)  
 2015 - 2016
 
 **Software Engineer**  
-_Opentrons_  
+[_Opentrons_](www.opentrons.com)  
 2014
 
 **Bioengineer**  
-_Ginkgo Bioworks_  
+[_Ginkgo Bioworks_](www.ginkgobioworks.com)  
 2011 - 2014
 
 ---
@@ -44,17 +44,17 @@ _Ginkgo Bioworks_
 ## Teaching
 
 **Instructor**
-_BosLab_  
+[_BosLab_](www.boslab.org)  
 Sommerville MA  
 2016 - Present
 
 **Instructor**
-_Harvard international Genetically Engineered Machines_  
+[_Harvard international Genetically Engineered Machines_](http://2017.igem.org/Team:Harvard)  
 Harvard University  
 2017
 
 **Advisor**
-_University of Florida international Genetically Engineered Machines_  
+[_University of Florida international Genetically Engineered Machines_](http://2017.igem.org/Team:Florida_Atlantic)  
 University of Florida  
 2017
 
@@ -73,7 +73,7 @@ University of Illinois at Urbana-Champaign
 ## Activities
 
 **Advisor, Mentor, Instructor, Judge**  
-_international Genetically Engineered Machines_  
+[_international Genetically Engineered Machines_](http://igem.org/Main_Page)  
 2009 - Present
 
 ---
